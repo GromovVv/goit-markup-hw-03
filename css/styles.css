@@ -199,9 +199,13 @@ display: none;
 .advantage-section-item {
   letter-spacing: 0.03em;
 }
-.advantage-section:not(:last-child) {
+/* .advantage-section:not(:last-child) {
   margin-right: 30px;
-}
+} */
+/* .advantage-item:not(:last-child) {
+margin-right: 30px;
+} */
+
 .advantage-section-title {
   font-weight: 700;
   font-size: 14px;
@@ -216,7 +220,13 @@ display: none;
   line-height: 1.174;
   color: var(--secondary-font-color);
   max-width: 270px;
+  margin-right: 30px;
 }
+.section-item:not(:last-child) {
+  margin-right: 30px;
+  }
+  /* ПОЧЕМУ НЕ РАБОТАЕТ section-item:not(:last-child) ?! */
+
 /* ===========  END ADVANTAGE  =========== */
 
 /* ===========  WHAT WE DO  =========== */
